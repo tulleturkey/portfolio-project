@@ -9,21 +9,33 @@ body {
   background: #F8EDE0;
 }
 
+h1, h2 {
+  margin-top: 50px;
+}
 h1 {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 60px;
   text-align: left;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--default-font-family);
   font-size: 20px;
-  text-align: right;
+text-align: left;
+  font-weight: bolder;
+padding: 10px; 
 }
 
+p {
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
 .hero {
   background: var(--secondary-color);
-text-align: center;
+text-align: left;
+
 }
 
 .index-btn {
@@ -34,6 +46,8 @@ font-size: 18px;
 line-height: 27px;
 padding: 12px 20px;
 border-width: 0;
+margin-left: 120px;
+margin-bottom: 30px;
 }
 
 .index-btn:hover {
