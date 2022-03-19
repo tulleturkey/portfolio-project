@@ -28,7 +28,7 @@ padding: 10px;
 
 p {
   font-family: var(--default-font-family);
-  font-size: 15px;
+  font-size: 12px;
   text-align: left;
   padding: 10px;
 }
@@ -68,4 +68,28 @@ font-size: 18px;
 line-height: 27px;
 padding: 12px 20px;
 border-width: 0;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+.project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+.index-btn {
+font-size-adjust: 10px;
+
 }
