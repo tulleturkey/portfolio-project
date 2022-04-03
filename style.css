@@ -126,7 +126,7 @@ footer {
 footer p {
   font-family: var(--default-font-family);
   font-size: 14px;
-  
+
 }
 footer .contact-box {
   background: var(--secondary-color);
@@ -137,7 +137,7 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align-center;
+  text-align: center;
   font-family:  var(--default-font-family);
 }
 
@@ -162,36 +162,53 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
+ .introduction h1 {
     font-size: 30px;
     
   }
 
-  h2 {
+  .introduction h2 {
     font-size: 20px;
   }
 
-  .hero {
-    padding: 80px 20px;
+  .introduction h3 {
+    font-size: 16px;
   }
 
-.project-description {
-    padding: 0;
-    text-align: center;
-  }
+.projects-title {
+  font-size: 24px;
+}
+
+.project-description h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-description p {
+  font-size: 12px;
+}
 
 .index-btn {
 font-size-adjust: 10px;
+margin-bottom: 20px;
 
+
+}
+
+.profile-pic {
+  margin-top: 0;
 }
 
 .content {
   text-align: center;
-  padding:0;
+padding: 0;
 }
 
-p {
+ .content h1 {
+    font-size: 28px;
+  }
 
-    text-align: center;
+p {
+text-align: center;
   padding:0;
 }
