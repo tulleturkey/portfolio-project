@@ -18,6 +18,11 @@ body {
   color: var(--branding-color) !important;
 }
 
+.introduction {
+   background: var(--secondary-color);
+text-align: center;
+}
+
 .introduction h1 {
   font-family: var(--heading-font-family);
   font-size: 80px;
@@ -77,17 +82,13 @@ h4 {
   font-family: var(--heading-font-family);
   font-size: 48px;
 }
+
 .content p {
   font-family: var(--default-font-family);
   font-size: 14px;
 
-
 }
-.hero {
-  background: var(--secondary-color);
-text-align: center;
 
-}
 
 .index-btn {
 background: var(--branding-color);
@@ -182,6 +183,7 @@ footer .social-links a:hover {
 .project-description h2 {
   font-size: 16px;
   font-weight: bold;
+  
 }
 
 .project-description p {
